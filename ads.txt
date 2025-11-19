@@ -60,3 +60,22 @@
 ||bat.bing.com^
 ||bingads.microsoft.com^
 ||ads.yahoo.com^
+
+
+! ============================
+!  SCRIPT BLOCKING RULES
+! ============================
+! Block pagead.js for test domain
+||adblock.turtlecute.org/pagead.js
+
+! Block all widget ads scripts globally
+*/widget/ads.*$script
+
+! (Optional stricter variant) 
+! */widget/ads.*$script,domain=~trustedsite.com
+
+! ============================
+!  COSMETIC FILTER RULES
+! ============================
+adblock.turtlecute.org##.adbox.banner_ads.adsbox
+d3ward.github.io##.textads
