@@ -57,3 +57,6 @@
 ||partnerads.ysm.yahoo.com^
 ||adtech.yahooinc.com^
 ||gemini.yahoo.com^
+||bat.bing.com^
+||bingads.microsoft.com^
+||ads.yahoo.com^
